@@ -369,5 +369,39 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <button class="modal-btn-x" type="button"><svg class="modal-x-svg" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg></button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <label class="modal-label" for="user-name">Name</label>
+                <div class="modal-wrap-input">
+                    <input class="modal-input" type="text" name="user-name" id="user-name">
+                    <svg class="modal-input-svg" width="18" height="24"> 
+                        <use href="./images/icons.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+                <label class="modal-label" for="user-tel">Phone</label>
+                <div class="modal-wrap-input">
+                    <input class="modal-input" type="tel" name="user-tel" id="user-tel">
+                    <svg class="modal-input-svg" width="18" height="24"> 
+                        <use href="./images/icons.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+                <label class="modal-label" for="user-email">Email</label>
+                <div class="modal-wrap-input">
+                    <input class="modal-input" type="email" name="user-email" id="user-email">
+                    <svg class="modal-input-svg" width="18" height="24"> 
+                        <use href="./images/icons.svg#icon-email-black"></use>
+                    </svg>
+                </div>
+                    <label class="modal-label" for="user-comment">Comment</label>
+                    <textarea class="modal-comment" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+            </form>
+            <button class="modal-btn-send" type="submit">Send</button>
+        </div>
+    </div>
 </body>
 </html>
